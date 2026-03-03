@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=67"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyScan"
+version = "1.0.0"
+description = "Educational Web Penetration Testing CLI — authorized, non-destructive, proof-based vulnerability scanner"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Samuel Selasi" }]
+keywords = ["penetration-testing", "security", "vulnerability-scanner", "educational", "cybersecurity"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Education",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "urllib3>=2.0.0",
+]
+
+[project.scripts]
+pyscan = "pyscan.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/samuelselasi/pyscan"
+Issues = "https://github.com/samuelselasi/pyscan/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyscan*"]
