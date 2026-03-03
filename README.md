@@ -1,5 +1,9 @@
 # PyScan
 
+[![PyPI version](https://badge.fury.io/py/pyscan-sec.svg)](https://badge.fury.io/py/pyscan-sec)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 An educational, proof-based web penetration testing command-line tool for authorized security assessments.
 
 PyScan performs non-destructive vulnerability discovery against web targets, captures verifiable evidence from HTTP responses, and produces structured reports aligned with the OWASP Top 10. It is designed for use in authorized penetration tests, security coursework, and self-directed learning.
