@@ -3,7 +3,7 @@ requires = ["setuptools>=67"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PyScan"
+name = "pyscan-sec"
 version = "1.0.0"
 description = "Educational Web Penetration Testing CLI — authorized, non-destructive, proof-based vulnerability scanner"
 readme = "README.md"
